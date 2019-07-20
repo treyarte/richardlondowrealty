@@ -1,0 +1,248 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Richard Londow Realty</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- bootstrap cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- font awesome project kit -->
+        <script src="https://kit.fontawesome.com/858809a5ac.js"></script>
+        <!-- font family -->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="header-section">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="/"><img class="logo-image" src="images/real-estate-logo.png" alt="Richard Londow Realty Logo" srcset=""> </a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
+                    <span class="fas fa-bars"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbar-links">
+                    <!-- ml-auto sets margin left to auto -->
+                    <ul class="navbar-nav ml-auto navbar-link-items">
+                        <li class="nav-item">
+                            <a class="nav-link"href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Properties</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>      
+            </nav>
+        </section>
+        <section class="hero-section">
+            <div class="hero-image">
+                <div class="hero-text">
+                        <img src="images/house1.jpg" alt="Hero Banner Image" 
+                        srcset="images/house1.jpg   1200w,
+                                images/hero-banner-mobile.png 1000w"
+                        sizes="(min-width: 960px) 960px, 100vw">
+                </div>
+               
+            </div>
+            <div class="jumbotron">
+                <h1 class="display-5">Single House near Los Angeles</h1>
+                <p class="lead">5,600 per Month <span class="for-rent-label">For Rent</span></p>
+                <p><span class="fas fa-map-marker"></span> 1911 Sunset Blvd Los Angeles, CA 90026</p>
+            </div>
+            <div class="feature-container">
+                <div class="row">
+                    <div class="col-lg-4 feature-area">
+                        <span class="fas fa-vector-square"></span> <div class="property-value"> 9000 Square Feet</div>
+                    </div>
+                    <div class="col-lg-4 feature-bedroom">
+                        <span class="fas fa-bed"></span> <div class="property-value"> 5 Bedrooms</div>
+                    </div>
+                    <div class="col-lg-4 feature-bath">
+                        <span class="fas fa-bath"></span><div class="property-value">3 Bathrooms</div>
+                    </div>
+                </div>
+              
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div>
+                <h2 class="second-header">Some Slogan Lorem Ipsuem</h2>
+            </div>
+        </section>
+        <section class="search-section">
+            <div class="property-search">
+                <div>
+                    <button class="active-btn">For Rent</button>
+                    <button class="inactive-btn">For Sell</button>
+                </div>
+                <div class="search-options">
+                    <form action="">
+                        <div>
+                            <select name="type" class="search-field" >
+                                    <option value="apartment">Apartment</option>
+                                    <option value="house">House</option>
+                                    <option value="office">Office</option>
+                                    <option value="lot">Lot</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input name="title" class="search-field" type="text" placeholder="Title">
+                        </div>
+                        <div>
+                            <input name="address" class="search-field" type="text" placeholder="Address">
+                        </div>
+                        <div>
+                            <select name="bedrooms" id="search-field-bedrooms">
+                                <option value=""disabled selected>Bedrooms</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="bathrooms" id="search-field-bathrooms">
+                                <option value="" disabled selected>BathRooms</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="max-price" id="search-field-max-price">
+                                <option value="" disabled selected>Max Price</option>
+                                <option value="200">200</option>
+                                <option value="400">400</option>
+                                <option value="600">600</option>
+                                <option value="800">800</option>
+                                <option value="1000">1000</option>
+                                <option value="1200">1200</option>
+                                <option value="1400">1400</option>
+                                <option value="1600">1600</option>
+                                <option value="1700">1700</option>
+                                <option value="1800">1800</option>
+                                <option value="2000">2000</option>
+                                <option value="3000">3000</option>
+                                <option value="5000">5000</option>
+                                <option value="9000">9000</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="min-price" id="search-field-min-price">
+                                <option value="" disabled selected>Min Price</option>
+                                <option value="0">0</option>
+                                <option value="100">100</option>
+                                <option value="300">300</option>
+                                <option value="500">500</option>
+                                <option value="700">700</option>
+                                <option value="800">800</option>
+                                <option value="1000">1000</option>
+                                <option value="1300">1300</option>
+                                <option value="1500">1500</option>
+                                <option value="1700">1700</option>
+                                <option value="1900">1900</option>
+                                <option value="2000">2000</option>
+                                <option value="3000">3000</option>
+                                <option value="5000">5000</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="size-slider">Size</label>
+                            <input type="range" min="0" max="1000" value="0" class="range-slider" id="size-slider">
+                            <label for="land-area-slider">Land Area</label>
+                            <input type="range" min="0" max="1000" value="0" class="range-slider" id="land-area-slider">
+                        </div>
+                        <div>
+                            <button>Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="property-browsing-section">
+            <div>
+                <h3>Browser Properties</h3>
+                <hr>
+            </div>
+            <div>
+                <img src="images/house-2.jpg" alt="example house 1">
+                <p>Some Property Title</p>
+                <p>500,000 / year</p>
+                <p><span class="fas fa-map-marker"> 1911 Sunset Blvd Los Angeles, CA 90026</span></p>
+                <div>
+                    <span class="fas fa-tag"> Type</span>
+                    <span class="far fa-calendar-alt"> 2 years ago</span>
+                </div>
+            </div>
+            <div>
+                    <img src="images/house-3.jpg" alt="example house 2">
+                    <p>Some Property Title</p>
+                    <p>500,000 / year</p>
+                    <p><span class="fas fa-map-marker"> 1911 Sunset Blvd Los Angeles, CA 90026</span></p>
+                    <div>
+                        <span class="fas fa-tag"> Type</span>
+                        <span class="far fa-calendar-alt"> 2 years ago</span>
+                    </div>
+            </div>
+            <div>
+                <img src="images/apartment-1.jpg" alt="example apartment 1">
+                <p>Some Property Title</p>
+                <p>500,000 / year</p>
+                <p><span class="fas fa-map-marker"> 1911 Sunset Blvd Los Angeles, CA 90026</span></p>
+                <div>
+                    <span class="fas fa-tag"> Type</span>
+                    <span class="far fa-calendar-alt"> 2 years ago</span>
+                </div>
+            </div>
+            <div>
+                <button>View All</button>
+            </div>
+        </section>
+        <section class="property-category-section">
+            <div class="">
+                <div>
+                    <img src="images/condo-category.jpg" alt="condo category image">
+                    <h3>Condos</h3>
+                    <p><em>5</em> properties</p>
+                </div>
+                <div>
+                    <img src="images/house-category.jpeg" alt="house category image">
+                    <h3>Houses</h3>
+                    <p><em>6</em> properties</p>
+                </div>
+                <div>
+                    <img src="images/apartment-category.jpg" alt="apartment category image">
+                    <h3>Apartments</h3>
+                    <p><em>7</em> properties</p>
+                </div>
+                <div>
+                    <img src="images/office-category.jpg" alt="office category image">
+                    <h3>offices</h3>
+                    <p><em>8</em> properties</p>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

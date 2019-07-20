@@ -1,0 +1,72 @@
+
+img{
+    width: 100%;
+}
+
+.hero-section .jumbotron{
+    color: #ffff;
+    background-color: #313131;
+    /* padding: -15%; */
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+
+.feature-container span{
+    margin: 0 1rem 1rem 0;
+    font-size: 2rem;
+}
+
+.property-value{
+    font-size: 2rem;
+    color: #414141;
+}
+
+.feature-container{
+    background-color: #dadddf;
+    padding: 1.5rem;
+
+}
+
+.property-value{
+    display: inline-block;
+}
+
+.feature-item{
+    font-size: 2rem;
+    color: #313131;
+}
+
+.for-rent-label{
+    background-color: #f69314;
+    padding: 5px;
+    border: none;
+    border-radius:8%;
+}
+
+.logo-image{
+    width: 100%;
+}
+
+.nav-item{
+    margin: 0 1rem 0 1rem; 
+}
+
+
+/* icons */
+.fa-map-marker{
+    color: #ca3e47
+}
+
+@media (min-width: 960px){
+    img{
+        width: 100%;
+    }
+    .header-section{
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 2.2rem;
+        background-color: #ffff;
+        margin: 0 9rem 0 9rem;
+    }
+    
+}
